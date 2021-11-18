@@ -78,3 +78,20 @@ function Person(first, last, age, eye) {
 let pr = new Person("Jane", "Doe", "24", "Blue");
 
 console.log("pr =>", pr);
+
+//Cloning an object
+let pr1 = JSON.parse(JSON.stringify(person));
+
+//Value vs Reference
+//Reference
+let pr2 = person;
+console.log("person =>", person, '\n');
+console.log("pr2 =>", pr2, '\n');
+
+person.firstName = "Jane";
+console.log("person =>", person, '\n');
+console.log("pr2 =>", pr2, '\n');
+
+//Value
+console.log("person =>", person, '\n');
+console.log("pr2 =>", pr1, '\n');

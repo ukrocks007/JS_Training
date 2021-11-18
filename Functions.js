@@ -18,7 +18,6 @@ const addition = (a, b) => {
 console.log(addition(4, 6));
 
 //the variables declared in the function code block is not accessible outside
-
 const test = () => {
     var info = "testing..."
 }
