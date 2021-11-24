@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>HTML Manipulation with DOM</title>
+</head>
+<body>
+    <script>
+        document.write('Welcome');
+        console.log('Console');
+        var count = localStorage.getItem('count');
+        if(!count) {
+            count = 0;
+        } else {
+            count = Number(count);
+        }
+
+        function increment() {
+            count = count + 1;
+            console.log(count);
+            localStorage.setItem('count', count)
+        }
+        window.alert('Welcome');
+    </script>
+    <p id="text">Hello Learner</p>
+    <h1 name="heading">Welcome to JS Tutorial</h1>
+    <h2 name="heading">Lets Learn!</h2>
+    <button class="submit" onClick="increment()">Count me in!</button>
+
+</body>
+</html>
