@@ -22,3 +22,12 @@ console.log("'Hello '.concat('World', '!') =>", 'Hello '.concat('World', '!'));
 console.log('"   0   c   1   ".trim() =>', "   0   c   1   ".trim())
 console.log('"5".padStart(4) =>', "5".padStart(4, 0))
 console.log('"5".padEnd(4) =>', "5".padEnd(4, 0))
+
+
+/**
+ * Difference between slice and substring
+ */
+
+var strr = "12345678";
+strr.substring(7, 2) // => '34567'
+strr.slice(7, 2) // => ''
