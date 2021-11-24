@@ -14,3 +14,7 @@ const agenda = ["Movie", "Games", "Work", "Food", "Shopping"];
 // Print Games by assigning correct index
 let index;
 console.log(agenda[index])
+
+
+const converted = Number(agenda[index]);
+// print NaNa using converted variable
