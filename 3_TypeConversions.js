@@ -36,3 +36,7 @@ true.toString()    // returns "true"
 "5" + 2     // returns "52"      because 2 is converted to "2"
 "5" - 2     // returns 3         because "5" is converted to 5
 "5" * "2"   // returns 10        because "5" and "2" are converted to 5 and 2
+
+var numStr = "3.14";
+console.log(parseInt(numStr));
+console.log(parseFloat(numStr));
