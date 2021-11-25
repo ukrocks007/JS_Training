@@ -18,7 +18,7 @@ console.log("d6 =>", d6.toLocaleString());
 // new Date(date string)
 const d7 = new Date("October 13, 2014 11:13:00");
 console.log("d7 =>", d7.toLocaleString());
-// new Date(milliseconds)
+// new Date(milliseconds) => Timestamp
 const d8 = new Date(100000000000);
 console.log("d8 =>", d8.toLocaleString());
 
@@ -43,17 +43,15 @@ d1.setDate(d1.getDate() + 50);
 console.log("d1.setDate(d1.getDate() + 50) =>", d1.toISOString());
 d1.setFullYear(2000);
 console.log("d1.setFullYear(2000) =>", d1.toISOString());
-d1.setHours(1);
+d1.setHours(d1.getHours() + 1);
 console.log("d1.setHours(1) =>", d1.toISOString());
-d1.setMilliseconds(1);
+d1.setMilliseconds(d1.getMilliseconds() + 1);
 console.log("d1.setMilliseconds(1) =>", d1.toISOString());
-d1.setMinutes(1);
+d1.setMinutes(d1.getMinutes() + 1);
 console.log("d1.setMinutes(1) =>", d1.toISOString());
-d1.setMonth(1);
+d1.setMonth(d1.getMonth() + 12);
 console.log("d1.setMonth(1) =>", d1.toISOString());
-d1.setSeconds(1);
+d1.setSeconds(d1.getSeconds() + 1);
 console.log("d1.setSeconds(1) =>", d1.toISOString());
 d1.setTime(100000000000);
 console.log("d1.setTime(100000000000) =>", d1.toISOString());
-
-

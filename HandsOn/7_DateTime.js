@@ -9,7 +9,7 @@ const d = new Date();
 //Print following from d
 // FullYear
 
-// Month index
+// Month
 
 // Date
 
