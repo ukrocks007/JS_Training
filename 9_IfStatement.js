@@ -11,7 +11,7 @@ let remainder = number % 2;
 if(remainder == 1) {
     console.log(`${number} is odd`);
 } else {
-    console.log(number + " is odd");
+    console.log(number + " is even");
 }
 
 let today = new Date();

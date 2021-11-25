@@ -10,6 +10,7 @@
 /**
  * 
  * @param {*} operator can be one of the following ['add', 'minus', 'multiply', 'divide']
+ * ['+', '-', '*', '/']
  */
 function getValue(operator) {
 
@@ -32,7 +33,7 @@ function getValue(operator) {
 
 /**
  * 
- * @param {*} operator can be one of the following ['add', 'minus', 'multiply', 'divide']
+ * @param {*} position Position of employee
  */
  function getSalary(position) {
 
