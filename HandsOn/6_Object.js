@@ -12,7 +12,7 @@ console.log("Object.keys(obj) =>");
 //print values of the obj
 console.log("Object.values(obj) =>");
 
-//delete company from obj
+//delete age from obj
 
 
 /**
