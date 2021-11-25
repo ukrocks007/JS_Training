@@ -29,7 +29,7 @@ console.log("obj.data =>", obj.data);
 console.log("obj['data'][0] =>", obj['data'][0]);
 
 obj['fullName'] = function () {
-    return this.firstName + " " + this.firstName;
+    return this.firstName + " " + this.lastName;
 }
 
 console.log("obj =>", obj);
@@ -39,12 +39,14 @@ console.log("obj.fullName() =>", obj.fullName());
 const person = {
     firstName: "John",
     lastName: "Doe",
-    language: "en",
+    _language: "en",
+    validLangs: ['en', 'de', 'fr', 'ge'],
     get lang() {
-        return this.language;
+        return this._language;
     },
     set lang(lang) {
-        this.language = lang;
+        if(this.validLangs.indexOf(lang) != -1)
+            this._language = lang;
     }
 };
 

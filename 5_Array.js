@@ -12,8 +12,18 @@ console.log("cars[2] =>", cars[2]);
 cars[2] = 'Audi';
 console.log("cars[2] =>", cars[2]);
 
+//Push method: insert an element at the end of an arry
 arr.push(0);
 console.log("arr =>", arr);
+arr.push(0);
+//Pop method: removes an element from end of the array
+arr.pop();
+console.log("arr =>", arr);
 
-console.log("arr.sort() =>", arr.sort())
-console.log(arr);
+//default sort method convert the elements to string and sorts it
+console.log("arr.sort() =>", arr1.sort())
+console.log(arr1);
+
+//custom sort method
+let persons = [{name: "jane", age: 20}, {name: "Yash", age: 27}, {name: "Raj", age: 10}];
+persons.sort((a, b) => a.age > b.age ? 1 : -1);

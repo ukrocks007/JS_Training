@@ -1,9 +1,10 @@
 let obj = {
-    name: "Utkarsh", city: "Pune", age: 27, ratePerHour: 40
+    name: "Utkarsh", city: "Pune", age: 27, ratePerHour: 40,
+    'salary increment': 0.3
 };
 
-//print city of the person
-console.log("obj =>", obj);
+//print city of the obj
+console.log("obj city =>", obj);
 
 //print keys from the obj
 console.log("Object.keys(obj) =>");
