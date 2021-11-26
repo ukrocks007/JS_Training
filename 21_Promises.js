@@ -1,3 +1,6 @@
+// .then success <= resolve
+// .catch error  <= reject
+
 //Resolve
 // This function waits for 3 seconds and returns "Hello World!"
 const asyncFunc = () => {
