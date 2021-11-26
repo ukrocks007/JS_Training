@@ -16,7 +16,7 @@ try {
 }
 
 // Try - Catch - Finally
-var score = 1;
+var score = 3;
 try {
     if(score > 2) {
         c++;

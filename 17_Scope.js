@@ -19,7 +19,7 @@ function printMaxSpeed() {
     var speed = 200;
     console.log(speed);
 }
-//console.log(speed); // Throws an error (undefined)
+// console.log(speed); // Throws an error (undefined)
 
 /**
  * Block Scope
